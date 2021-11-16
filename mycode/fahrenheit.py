@@ -12,5 +12,6 @@ fah = fah_convert(user_input)
 print('섭씨온도 :',user_input)
 print(f'섭씨온도 : {user_input}')
 # f 를 쓰면 정적인 변수 와 동적인 변수를 같이 사용할 수 있다.
+print('화씨온도 : {0}'.format(fah))
 print('화씨온도 : {0:.2f}'.format(fah))
 print(f'화씨온도 : {round(fah,2)}')
